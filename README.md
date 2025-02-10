@@ -38,6 +38,8 @@ Before you begin, make sure you have the following installed on your machine:
    cd BookShelfDB
    ```
 
+   ![git clone](Images/git clone.png)
+
 2. **Make the Script Executable:**
    Ensure the bash script has the executable permission:
    ```
