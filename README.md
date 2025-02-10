@@ -34,7 +34,7 @@ Before you begin, make sure you have the following installed on your machine:
 1. **Clone the Repository:**
 
    ```
-   git clone https://github.com/yourusername/booksdb.git
+   git clone https://github.com/dev-tiolu/BookShelfDB.git
    cd booksdb
    ```
 
