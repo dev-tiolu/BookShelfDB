@@ -35,7 +35,7 @@ Before you begin, make sure you have the following installed on your machine:
 
    ```
    git clone https://github.com/dev-tiolu/BookShelfDB.git
-   cd booksdb
+   cd BookShelfDB
    ```
 
 2. **Make the Script Executable:**
