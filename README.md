@@ -52,19 +52,18 @@ Before you begin, make sure you have the following installed on your machine:
    The script will connect to **PostgreSQL**, create the `booksdb` database, set up the necessary components, and output a message once everything is complete.
 
 ## How It Works
-### Database Creation:
++ Database Creation:
 The script first drops any existing database named `booksdb` (to start fresh) and then creates a new one.
 
-### Table & Schema Setup:
++ Table & Schema Setup:
 Inside the database, it creates a `books` table with columns to store information about each book.
 
-### User Roles:
-Two roles are created:
-
-+ **admin_user:** This role gets full privileges to manage the database.
-+ **view_user:** This role is granted read-only access, perfect for users who only need to view the data.
++ User Roles:
+  Two roles are created:
+  + **admin_user:** This role gets full privileges to manage the database.
+  + **view_user:** This role is granted read-only access, perfect for users who only need to view the data.
   
-### Function & View:
-+ The `count_books_by_publisher` function returns the count of books for a specified publisher.
-+ The `books_view` view uses this function to display each book along with the count of books from the same publisher, making your queries more insightful.
++ Function & View:
+  + The `count_books_by_publisher` function returns the count of books for a specified publisher.
+  + The `books_view` view uses this function to display each book along with the count of books from the same publisher, making your queries more insightful.
 
