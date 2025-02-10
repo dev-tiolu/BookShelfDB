@@ -38,7 +38,7 @@ Before you begin, make sure you have the following installed on your machine:
    cd BookShelfDB
    ```
 
-   ![git clone](https://github.com/dev-tiolu/BookShelfDB/Images/git_clone.png
+   ![git clone](https://github.com/dev-tiolu/BookShelfDB/Images/git_clone.png)
 
 2. **Make the Script Executable:**
    Ensure the bash script has the executable permission:
