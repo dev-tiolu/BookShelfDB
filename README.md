@@ -46,14 +46,14 @@ Before you begin, make sure you have the following installed on your machine:
    chmod +x create_booksdb.sh
    ```
 
-   ![script](https://github.com/dev-tiolu/BookShelfDB/Images/view bash script.png)
+   ![script](https://github.com/dev-tiolu/BookShelfDB/Images/view_bash_script.png)
 
 3. **Run the Script:**
    Execute the script to create the database, tables, roles, function, and view:
    ```
    ./create_booksdb.sh
    ```
-   ![make script executable](https://github.com/dev-tiolu/BookShelfDB/Images/make script executable.png)
+   ![+x](https://github.com/dev-tiolu/BookShelfDB/Images/make_script_executable.png)
    
    The script will connect to **PostgreSQL**, create the `booksdb` database, set up the necessary components, and output a message once everything is complete.
 
